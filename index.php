@@ -1,0 +1,8 @@
+<?php require 'config/database.php'; require 'includes/functions.php'; site_header('Home'); ?>
+<section class="hero"><div class="container"><span class="eyebrow">Technology made practical</span><h1>Welcome to New Official TV</h1><p>Your destination for computer repair, technology learning, opportunities and buying or selling IT equipment.</p><a class="btn" href="repair-services.php">Book a Repair</a> <a class="btn secondary" href="learn.php">Explore Learning</a></div></section>
+<section class="section"><div class="container"><div class="section-title"><h2>What We Offer</h2><p class="muted">Practical technology services and resources for individuals, students and businesses.</p></div><div class="grid">
+<div class="card"><img src="assets/images/computer-repair.svg" alt="Computer repair"><div class="card-body"><h3>Computer Repair</h3><p>Request diagnosis and support for laptop and desktop problems.</p><a href="repair-services.php">Book a repair →</a></div></div>
+<div class="card"><img src="assets/images/web-development.svg" alt="Web development"><div class="card-body"><h3>Learn Technology</h3><p>Explore networking, programming, hardware and cybersecurity topics.</p><a href="learn.php">Start learning →</a></div></div>
+<div class="card"><img src="assets/images/opportunities.svg" alt="Career opportunities"><div class="card-body"><h3>Opportunities</h3><p>Find jobs, internships, scholarships and training opportunities.</p><a href="opportunities.php">Explore opportunities →</a></div></div>
+</div></div></section>
+<?php site_footer(); ?>
